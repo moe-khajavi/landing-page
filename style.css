@@ -1,4 +1,4 @@
-
+/*Hero section styles*/
 
 .header{
     display: flex;
@@ -48,7 +48,47 @@ li{
    background-color: #1F2937;
 }
 
-p{
+.hero-text{
     font-size: 18px;
     color: #E5E7EB;
 }
+
+/*Information section styles */
+
+.info-container{
+    margin-right:240px;
+    margin-left: 240px;
+    padding-top: 40px;
+}
+
+.img{
+    width: 175px;
+    height: 175px;
+    border-radius: 5%;
+    margin: auto;
+    border: 5px solid #3882F6;
+}
+
+.info-pics{
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+.info-text-container{
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+.info-text{
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    padding-top: 15px;
+    margin:auto;
+    color: #56616a;
+    
+}
+
+
