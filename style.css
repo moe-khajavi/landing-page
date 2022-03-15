@@ -83,7 +83,7 @@ li{
 
 .info-text{
     width: 175px;
-    height: 175px;
+    height: 65px;
     text-align: center;
     padding-top: 15px;
     margin:auto;
@@ -91,4 +91,62 @@ li{
     
 }
 
+/*Quote Section*/
 
+.quote{
+    background-color: #E5E7EB;
+    margin-right:240px;
+    margin-left: 240px;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+    align-items: center;
+    
+}
+
+/*call to action*/
+
+.action-container{
+    display: flex;
+    justify-content: space-around;
+    margin-right:240px;
+    margin-left: 240px;
+    padding-top: 40px;
+    background-color: #3882F6
+    
+}
+
+.action{
+    font-size: 24px;
+    color: white;
+}
+
+.fine-print{
+    font-size: 15px;
+    color: white;
+}
+
+/*footer*/
+
+footer{
+    background-color: #1F2937;
+    margin-top: 30px;
+    margin-right:240px;
+    margin-left: 240px;
+    padding: 40px;
+
+}
+
+
+
+.footer-text{
+    text-align: center;
+    color: #E5E7EB
+    
+}
